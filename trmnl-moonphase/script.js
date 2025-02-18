@@ -202,6 +202,6 @@ function drawMoonPhase(diameter) {
     diameter,
   });
 
-  document.querySelector(".title_bar .title").innerHTML =
+  document.querySelector("#moonphase .title_bar .title").innerHTML =
     moonPhaseDescription(moonPhasePercentage);
 }
